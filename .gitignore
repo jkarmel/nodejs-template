@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+.env
+*.js
+*.css
+!*.min.css
+!*.min.js
+dump.rdb
+media/
