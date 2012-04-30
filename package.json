@@ -1,10 +1,14 @@
 {
-    "name": "application-name"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.0"
-    , "less": ">= 0.0.1"
-    , "coffeekup": ">= 0.0.1"
+  "name": "template",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.0",
+    "less": ">= 0.0.1",
+    "coffeekup": ">= 0.0.1",
+    "mocha" : ">= 0.0.1",
+    "chai" : ">= 0.0.1",
+    "sinon" : ">= 0.0.1",
+    "sinon-chai" : ">= 0.0.1"
   }
 }
