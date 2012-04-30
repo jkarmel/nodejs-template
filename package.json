@@ -10,8 +10,10 @@
     "chai" : ">= 0.0.1",
     "sinon" : ">= 0.0.1",
     "sinon-chai" : ">= 0.0.1",
-    "cheerio" : ">= 0.0.1"
+    "cheerio" : ">= 0.0.1",
     "now-middleware": ">= 0.0.1",
-    "now": ">= 0.0.1"
+    "now": ">= 0.0.1",
+    "underscore": ">= 0.0.1",
+    "mongoose": ">= 0.0.1"
   }
 }

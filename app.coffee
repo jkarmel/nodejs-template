@@ -57,6 +57,8 @@ console.log 'Express server listening on port %d in %s mode', app.address().port
 # ------------------------------------------------------------------------------
 nowjs = require("now")
 
+# If using HEROKU to serve, downgrade transport to xhr and json, since heroku
+# does not support websockets.
 nowSettings = {}
 if process.env.HEROKU
   nowSettings =
