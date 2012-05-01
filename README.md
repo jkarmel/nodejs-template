@@ -50,4 +50,4 @@ To get up and running with the project you will need to do the following:
 ## Tests
 
 The tests are written in [mocha](http://visionmedia.github.com/mocha/) and follow BDD convention. Use `make test` to run them.  
-**NOTE:** If you add a new directory under tests, you will have to add them to the Makefile (**TODO:** Write a script to programmatically do this)
+**NOTE:** If you add a new directory under tests, you will have to add them to the Makefile (***TODO:*** Write a script to programmatically do this)
