@@ -7,3 +7,6 @@ node_modules/
 !*.min.js
 dump.rdb
 media/
+data/
+log/
+mongo.pid
