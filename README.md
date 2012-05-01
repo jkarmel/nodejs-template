@@ -43,9 +43,12 @@ To get up and running with the project you will need to do the following:
  * Install [mongodb](http://www.mongodb.org/display/DOCS/Quickstart+OS+X).
  * Checkout the source code and run `npm install`.
  * `make setup`
- * `make run` or `make watch` (uses supervisor to restart the server when files change)
 
 ***TODO***: Write a script to do installations
+
+## Running
+
+To run the app simply use `make run` or `make watch` (if you want the server to update when changes happen)
 
 ## Tests
 
