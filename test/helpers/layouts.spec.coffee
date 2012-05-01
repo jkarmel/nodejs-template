@@ -15,7 +15,7 @@ describe "layout", ->
   $ = ""
 
   before ->
-    html = coffeekup.render layouts.hardcode.application
+    html = coffeekup.render ( -> application(js : "main")), layouts
     $ = cheerio.load(html)
 
   it "has doctype html5", ->
@@ -24,8 +24,11 @@ describe "layout", ->
   it "has a head tag", ->
     $('head').length.should.equal(1)
 
-  it "links to nowjs", ->
+  it "links to basic javascript libraries", ->
+    $('head script[src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"]').length.should.equal(1)
     $('head script[src="/nowjs/now.js"]').length.should.equal(1)
 
-  it "links to require.js", ->
-    $('head script[src="/require.js"]').length.should.equal(1)
+  it "uses require.js to load modules (if specified)", ->
+    $('head script[src="/javascripts/require.js"][data-main="javascripts/main"]').length.should.equal(1)
+
+

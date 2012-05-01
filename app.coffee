@@ -29,7 +29,7 @@ app.configure ->
   # Set this to a secret value to encrypt session cookies
   app.use express.session secret: process.env.SESSION_SECRET || 'secret123'
 
-  app.helpers require './helpers/layout'
+  app.helpers require './helpers/layouts'
 
   app.use app.router
 
