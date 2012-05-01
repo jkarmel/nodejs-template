@@ -10,7 +10,7 @@ This is a template node project.
 
 ### Platform
 
-[node](http://www.nodejs.org) - Javascript platform to build network applications
+[node](http://www.nodejs.org) - Javascript platform to build network applications  
 [express](http://www.expressjs.com) - Minimalist web framework a la Ruby's sinatra
 
 ### ORM
@@ -19,8 +19,8 @@ This is a template node project.
 
 ### Front-End
 
-[less](http://http://lesscss.org/) - Superset of CSS that compiles to CSS
-[coffeekup](http://http://coffeekup.org/) - HTML builder thact utilizes coffeescript
+[less](http://http://lesscss.org/) - Superset of CSS that compiles to CSS  
+[coffeekup](http://http://coffeekup.org/) - HTML builder thact utilizes coffeescript  
 [space-pen](https://github.com/BamPowLabs/space-pen) - Clientside HTML builder that builds on top of JQuery
 
 ### Misc
@@ -29,8 +29,8 @@ This is a template node project.
 
 ### Testing
 
-[mocha](http://visionmedia.github.com/mocha/) - BDD/TDD testing framework similar to Jasmine but modular
-[chai](http://chaijs.com/) - BDD/TDD assertion library
+[mocha](http://visionmedia.github.com/mocha/) - BDD/TDD testing framework similar to Jasmine but modular  
+[chai](http://chaijs.com/) - BDD/TDD assertion library  
 [sinon](http://sinonjs.org/) - Spy/stubbing/mocking framework
 
 ## Installation
@@ -49,6 +49,5 @@ _TODO_: Write a script to do installations
 
 ## Tests
 
-The tests are written in [mocha](http://visionmedia.github.com/mocha/) and follow BDD convention. Use `make test` to run them.
-
+The tests are written in [mocha](http://visionmedia.github.com/mocha/) and follow BDD convention. Use `make test` to run them.  
 *NOTE:* If you add a new directory under tests, you will have to add them to the Makefile (_TODO:_ Write a script to programmatically do this)
