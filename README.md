@@ -45,9 +45,9 @@ To get up and running with the project you will need to do the following:
  * `make setup`
  * `make run` or `make watch` (uses supervisor to restart the server when files change)
 
-_TODO_: Write a script to do installations
+***TODO***: Write a script to do installations
 
 ## Tests
 
 The tests are written in [mocha](http://visionmedia.github.com/mocha/) and follow BDD convention. Use `make test` to run them.  
-*NOTE:* If you add a new directory under tests, you will have to add them to the Makefile (_TODO:_ Write a script to programmatically do this)
+**NOTE:** If you add a new directory under tests, you will have to add them to the Makefile (**TODO:** Write a script to programmatically do this)
