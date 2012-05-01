@@ -8,15 +8,15 @@ fs = require 'fs'
 chai.use sinonChai
 should = chai.should()
 
-describe "index.html.coffee", ->
+layouts = require '../../helpers/layouts'
+
+describe "layout", ->
   html = ""
   $ = ""
 
-  before (done) ->
-    fs.readFile 'views/index.html.coffee', 'utf8', (error, data) ->
-      throw error if error
-      $ = cheerio.load(html = coffeekup.render data)
-      done()
+  before ->
+    html = coffeekup.render layouts.hardcode.application
+    $ = cheerio.load(html)
 
   it "has doctype html5", ->
     html.should.match(/^<!DOCTYPE html>/)
@@ -24,9 +24,8 @@ describe "index.html.coffee", ->
   it "has a head tag", ->
     $('head').length.should.equal(1)
 
-  it "renders an h1", ->
-    $('h1').text().should.equal('Homepage')
-
   it "links to nowjs", ->
-    $('head script').attr('src').should.equal '/nowjs/now.js'
+    $('head script[src="/nowjs/now.js"]').length.should.equal(1)
 
+  it "links to require.js", ->
+    $('head script[src="/require.js"]').length.should.equal(1)
