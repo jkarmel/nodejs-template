@@ -26,3 +26,7 @@ describe "index.html.coffee", ->
 
   it "renders an h1", ->
     $('h1').text().should.equal('Homepage')
+
+  it "links to nowjs", ->
+    $('head script').attr('src').should.equal '/nowjs/now.js'
+
