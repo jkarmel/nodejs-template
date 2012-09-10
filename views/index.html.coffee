@@ -1,6 +1,6 @@
 application
   head: ->
-    meta name:"viewport", content:"user-scalable=no, width=device-width"
+    meta name:"viewport", content:"width = 320, initial-scale = 2.3, user-scalable = no""
     link rel:"stylesheet", type:"text/css", href:"/stylesheets/style.css"
   body: ->
     h1 "Jeremy Karmel"
