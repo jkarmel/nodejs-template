@@ -1,7 +1,7 @@
 doctype 5
 html ->
   head ->
-    meta name:"viewport", content:"width = 320, initial-scale = 2.3, user-scalable = no"
+    meta name:"viewport", content:"width = 320, initial-scale = 0, maximum-scale=1.0, user-scalable = no"
     link rel:"stylesheet", type:"text/css", href:"/stylesheets/style.css"
   body ->
     h1 "Jeremy Karmel"
