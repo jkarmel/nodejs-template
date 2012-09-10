@@ -1,8 +1,9 @@
-application
-  head: ->
-    meta name:"viewport", content:"width = 320, initial-scale = 2.3, user-scalable = no""
+doctype 5
+html ->
+  head ->
+    meta name:"viewport", content:"width = 320, initial-scale = 2.3, user-scalable = no"
     link rel:"stylesheet", type:"text/css", href:"/stylesheets/style.css"
-  body: ->
+  body ->
     h1 "Jeremy Karmel"
     div class:"separator"
     ul class:"profiles", ->
