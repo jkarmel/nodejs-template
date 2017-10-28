@@ -29,7 +29,7 @@ This is a template node project.
 
 ### Testing
 
-[mocha](http://visionmedia.github.com/mocha/) - BDD/TDD testing framework similar to Jasmine but modular  
+[mocha](http://mochajs.org/) - BDD/TDD testing framework similar to Jasmine but modular  
 [chai](http://chaijs.com/) - BDD/TDD assertion library  
 [sinon](http://sinonjs.org/) - Spy/stubbing/mocking framework
 
@@ -52,5 +52,5 @@ To run the app simply use `make run` or `make watch` (if you want the server to 
 
 ## Tests
 
-The tests are written in [mocha](http://visionmedia.github.com/mocha/) and follow BDD convention. Use `make test` to run them.  
+The tests are written in [mocha](http://mochajs.org/) and follow BDD convention. Use `make test` to run them.  
 **NOTE:** If you add a new directory under tests, you will have to add them to the Makefile (***TODO:*** Write a script to programmatically do this)
